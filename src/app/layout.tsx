@@ -56,7 +56,17 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-8857627341562937" />
+      </head>
       <body className={inter.className}>
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8857627341562937"
+          crossOrigin="anonymous"
+        />
+
         {/* Google Analytics - Replace GA_MEASUREMENT_ID with your actual ID */}
         {/* 
           GOOGLE SEARCH CONSOLE SETUP INSTRUCTIONS:
