@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://refibreakEven.com/sitemap.xml',
+    sitemap: 'https://refibreakeven.vercel.app/sitemap.xml',
   }
 }
