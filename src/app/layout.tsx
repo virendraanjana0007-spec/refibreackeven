@@ -58,6 +58,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-adsense-account" content="ca-pub-8857627341562937" />
+        <meta name="google-site-verification" content="baPv3Hywy3BPr3L4lF7G7vdZhVL5l3_XZKmaAPAhE_o" />
       </head>
       <body className={inter.className}>
         {/* Google AdSense */}
@@ -67,25 +68,10 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
-        {/* Google Analytics - Replace GA_MEASUREMENT_ID with your actual ID */}
-        {/* 
-          GOOGLE SEARCH CONSOLE SETUP INSTRUCTIONS:
-          1. Go to https://search.google.com/search-console
-          2. Add your domain (refibreakEven.com)
-          3. Verify ownership via DNS record or HTML file upload
-          4. Submit sitemap: https://refibreakEven.com/sitemap.xml
-          5. Request indexing for key pages (home, calculator, blog posts)
-          6. Monitor performance in Search Console dashboard
-          
-          GOOGLE ANALYTICS SETUP:
-          1. Go to https://analytics.google.com
-          2. Create a new property for RefiBreakEven.com
-          3. Get your Measurement ID (starts with G-)
-          4. Replace GA_MEASUREMENT_ID below with your actual ID
-        */}
+        {/* Google Analytics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+          src="https://www.googletagmanager.com/gtag/js?id=G-JLXM549QR4"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -93,10 +79,12 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'GA_MEASUREMENT_ID');
+              gtag('config', 'G-JLXM549QR4');
             `
           }}
         />
+
+        {/* Google Search Console - Verified */}
 
         <script
           type="application/ld+json"
